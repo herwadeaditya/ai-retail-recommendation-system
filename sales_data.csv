@@ -1,0 +1,903 @@
+InvoiceNo,Product,Category,Occasion,Quantity,Price
+1,Colors,Toys,Holi,3,343
+1,Pichkari,Toys,Holi,7,671
+2,Cap,Fashion,Summer,6,677
+2,Sunscreen,Health,Summer,9,211
+3,Sunglasses,Fashion,Summer,5,439
+3,Cap,Fashion,Summer,4,596
+4,Water Bottle,Utility,Summer,8,215
+4,Cap,Fashion,Summer,5,462
+5,Sunglasses,Fashion,Summer,7,179
+5,Cap,Fashion,Summer,6,274
+6,Umbrella,Utility,Rainy,10,600
+6,Raincoat,Fashion,Rainy,7,984
+7,Cap,Fashion,Summer,9,706
+7,Sunscreen,Health,Summer,7,451
+8,Blanket,Home,Winter,4,481
+8,Heater,Electronics,Winter,10,288
+8,Jacket,Fashion,Winter,3,254
+9,Sweets,Food,Diwali,7,862
+9,Dry Fruits,Food,Diwali,7,262
+9,Gift Box,Gift,Diwali,4,335
+10,Sunglasses,Fashion,Summer,4,579
+10,Cap,Fashion,Summer,4,296
+10,Water Bottle,Utility,Summer,4,918
+11,Gift Box,Gift,Diwali,8,795
+11,Sweets,Food,Diwali,6,606
+11,Dry Fruits,Food,Diwali,9,482
+12,Umbrella,Utility,Rainy,5,347
+12,Raincoat,Fashion,Rainy,7,958
+13,Raincoat,Fashion,Rainy,1,248
+13,Umbrella,Utility,Rainy,8,624
+14,Sunglasses,Fashion,Summer,5,768
+14,Water Bottle,Utility,Summer,8,211
+15,Raincoat,Fashion,Rainy,10,815
+15,Umbrella,Utility,Rainy,6,851
+16,Sweets,Food,Diwali,5,983
+16,Gift Box,Gift,Diwali,3,894
+17,Gift Box,Gift,Diwali,4,435
+17,Sweets,Food,Diwali,2,980
+17,Dry Fruits,Food,Diwali,9,936
+18,Blanket,Home,Winter,7,421
+18,Jacket,Fashion,Winter,8,895
+19,Water Bottle,Utility,Summer,3,867
+19,Sunglasses,Fashion,Summer,8,706
+20,Jacket,Fashion,Winter,2,456
+20,Blanket,Home,Winter,2,389
+20,Heater,Electronics,Winter,1,154
+21,Raincoat,Fashion,Rainy,1,108
+21,Umbrella,Utility,Rainy,5,969
+22,Heater,Electronics,Winter,2,668
+22,Jacket,Fashion,Winter,3,212
+23,Sunscreen,Health,Summer,8,722
+23,Cap,Fashion,Summer,6,826
+23,Sunglasses,Fashion,Summer,2,738
+24,Colors,Toys,Holi,7,637
+24,Pichkari,Toys,Holi,4,159
+25,Colors,Toys,Holi,4,566
+25,Pichkari,Toys,Holi,9,302
+26,Dry Fruits,Food,Diwali,10,500
+26,Gift Box,Gift,Diwali,9,405
+27,Colors,Toys,Holi,8,802
+27,Pichkari,Toys,Holi,5,594
+28,Jacket,Fashion,Winter,1,712
+28,Heater,Electronics,Winter,3,824
+28,Blanket,Home,Winter,6,731
+29,Water Bottle,Utility,Summer,8,400
+29,Sunscreen,Health,Summer,6,410
+30,Dry Fruits,Food,Diwali,4,817
+30,Sweets,Food,Diwali,8,528
+31,Dry Fruits,Food,Diwali,5,877
+31,Sweets,Food,Diwali,5,988
+31,Gift Box,Gift,Diwali,3,396
+32,Pichkari,Toys,Holi,10,341
+32,Colors,Toys,Holi,10,804
+33,Gift Box,Gift,Diwali,5,103
+33,Dry Fruits,Food,Diwali,1,376
+34,Colors,Toys,Holi,8,235
+34,Pichkari,Toys,Holi,9,387
+35,Raincoat,Fashion,Rainy,2,736
+35,Umbrella,Utility,Rainy,5,110
+36,Umbrella,Utility,Rainy,6,787
+36,Raincoat,Fashion,Rainy,10,933
+37,Colors,Toys,Holi,5,496
+37,Pichkari,Toys,Holi,5,841
+38,Gift Box,Gift,Diwali,4,556
+38,Dry Fruits,Food,Diwali,1,574
+39,Blanket,Home,Winter,4,166
+39,Jacket,Fashion,Winter,8,907
+39,Heater,Electronics,Winter,1,849
+40,Pichkari,Toys,Holi,4,966
+40,Colors,Toys,Holi,2,965
+41,Pichkari,Toys,Holi,4,218
+41,Colors,Toys,Holi,2,591
+42,Sunglasses,Fashion,Summer,1,181
+42,Cap,Fashion,Summer,1,688
+42,Water Bottle,Utility,Summer,5,662
+43,Heater,Electronics,Winter,9,984
+43,Blanket,Home,Winter,10,218
+43,Jacket,Fashion,Winter,4,792
+44,Blanket,Home,Winter,7,256
+44,Jacket,Fashion,Winter,6,103
+45,Sunscreen,Health,Summer,8,581
+45,Sunglasses,Fashion,Summer,2,556
+45,Cap,Fashion,Summer,3,988
+46,Jacket,Fashion,Winter,5,831
+46,Blanket,Home,Winter,7,844
+47,Sweets,Food,Diwali,10,522
+47,Gift Box,Gift,Diwali,3,346
+47,Dry Fruits,Food,Diwali,5,502
+48,Heater,Electronics,Winter,9,594
+48,Jacket,Fashion,Winter,9,603
+49,Pichkari,Toys,Holi,6,429
+49,Colors,Toys,Holi,2,204
+50,Water Bottle,Utility,Summer,7,373
+50,Sunscreen,Health,Summer,2,594
+50,Cap,Fashion,Summer,8,123
+51,Raincoat,Fashion,Rainy,4,344
+51,Umbrella,Utility,Rainy,10,318
+52,Pichkari,Toys,Holi,6,548
+52,Colors,Toys,Holi,4,503
+53,Water Bottle,Utility,Summer,8,506
+53,Sunglasses,Fashion,Summer,8,348
+53,Cap,Fashion,Summer,5,511
+54,Pichkari,Toys,Holi,1,187
+54,Colors,Toys,Holi,9,904
+55,Water Bottle,Utility,Summer,10,221
+55,Sunglasses,Fashion,Summer,3,666
+56,Cap,Fashion,Summer,1,586
+56,Water Bottle,Utility,Summer,4,787
+57,Dry Fruits,Food,Diwali,10,172
+57,Sweets,Food,Diwali,2,202
+58,Jacket,Fashion,Winter,4,474
+58,Heater,Electronics,Winter,2,232
+59,Raincoat,Fashion,Rainy,4,849
+59,Umbrella,Utility,Rainy,5,498
+60,Gift Box,Gift,Diwali,1,480
+60,Sweets,Food,Diwali,10,828
+61,Water Bottle,Utility,Summer,2,104
+61,Sunglasses,Fashion,Summer,9,420
+62,Gift Box,Gift,Diwali,6,753
+62,Dry Fruits,Food,Diwali,1,630
+62,Sweets,Food,Diwali,10,591
+63,Pichkari,Toys,Holi,8,339
+63,Colors,Toys,Holi,10,471
+64,Jacket,Fashion,Winter,8,235
+64,Heater,Electronics,Winter,5,338
+64,Blanket,Home,Winter,1,345
+65,Raincoat,Fashion,Rainy,5,155
+65,Umbrella,Utility,Rainy,10,272
+66,Sunglasses,Fashion,Summer,10,244
+66,Cap,Fashion,Summer,8,910
+67,Heater,Electronics,Winter,3,137
+67,Jacket,Fashion,Winter,10,127
+67,Blanket,Home,Winter,8,169
+68,Pichkari,Toys,Holi,7,174
+68,Colors,Toys,Holi,10,707
+69,Gift Box,Gift,Diwali,1,623
+69,Sweets,Food,Diwali,8,899
+69,Dry Fruits,Food,Diwali,6,879
+70,Sunglasses,Fashion,Summer,2,504
+70,Cap,Fashion,Summer,2,833
+71,Sunscreen,Health,Summer,7,262
+71,Sunglasses,Fashion,Summer,6,670
+72,Umbrella,Utility,Rainy,9,221
+72,Raincoat,Fashion,Rainy,3,366
+73,Cap,Fashion,Summer,6,944
+73,Sunglasses,Fashion,Summer,1,113
+73,Water Bottle,Utility,Summer,8,533
+74,Sunglasses,Fashion,Summer,3,270
+74,Cap,Fashion,Summer,7,459
+74,Water Bottle,Utility,Summer,7,520
+75,Sweets,Food,Diwali,10,859
+75,Gift Box,Gift,Diwali,8,1000
+75,Dry Fruits,Food,Diwali,7,642
+76,Heater,Electronics,Winter,2,217
+76,Jacket,Fashion,Winter,4,171
+76,Blanket,Home,Winter,1,263
+77,Raincoat,Fashion,Rainy,8,299
+77,Umbrella,Utility,Rainy,5,707
+78,Raincoat,Fashion,Rainy,7,951
+78,Umbrella,Utility,Rainy,1,452
+79,Blanket,Home,Winter,6,180
+79,Heater,Electronics,Winter,1,574
+79,Jacket,Fashion,Winter,10,201
+80,Umbrella,Utility,Rainy,6,446
+80,Raincoat,Fashion,Rainy,9,315
+81,Dry Fruits,Food,Diwali,9,637
+81,Gift Box,Gift,Diwali,1,881
+82,Jacket,Fashion,Winter,10,828
+82,Blanket,Home,Winter,3,704
+83,Blanket,Home,Winter,3,628
+83,Heater,Electronics,Winter,9,198
+83,Jacket,Fashion,Winter,4,387
+84,Umbrella,Utility,Rainy,7,653
+84,Raincoat,Fashion,Rainy,8,187
+85,Umbrella,Utility,Rainy,3,684
+85,Raincoat,Fashion,Rainy,1,432
+86,Pichkari,Toys,Holi,8,103
+86,Colors,Toys,Holi,3,851
+87,Umbrella,Utility,Rainy,3,572
+87,Raincoat,Fashion,Rainy,7,404
+88,Water Bottle,Utility,Summer,1,573
+88,Sunscreen,Health,Summer,9,770
+89,Water Bottle,Utility,Summer,5,511
+89,Sunglasses,Fashion,Summer,5,955
+90,Pichkari,Toys,Holi,9,793
+90,Colors,Toys,Holi,5,497
+91,Water Bottle,Utility,Summer,7,788
+91,Cap,Fashion,Summer,5,262
+91,Sunglasses,Fashion,Summer,5,340
+92,Sunglasses,Fashion,Summer,7,862
+92,Water Bottle,Utility,Summer,8,913
+92,Cap,Fashion,Summer,8,844
+93,Raincoat,Fashion,Rainy,8,815
+93,Umbrella,Utility,Rainy,8,115
+94,Cap,Fashion,Summer,1,638
+94,Water Bottle,Utility,Summer,1,580
+94,Sunscreen,Health,Summer,2,842
+95,Pichkari,Toys,Holi,10,137
+95,Colors,Toys,Holi,5,469
+96,Water Bottle,Utility,Summer,9,966
+96,Sunscreen,Health,Summer,4,387
+97,Colors,Toys,Holi,9,192
+97,Pichkari,Toys,Holi,8,724
+98,Heater,Electronics,Winter,2,708
+98,Jacket,Fashion,Winter,2,439
+98,Blanket,Home,Winter,3,734
+99,Colors,Toys,Holi,10,292
+99,Pichkari,Toys,Holi,4,498
+100,Jacket,Fashion,Winter,8,588
+100,Heater,Electronics,Winter,9,378
+100,Blanket,Home,Winter,2,342
+101,Gift Box,Gift,Diwali,2,761
+101,Sweets,Food,Diwali,10,148
+101,Dry Fruits,Food,Diwali,6,624
+102,Water Bottle,Utility,Summer,5,378
+102,Cap,Fashion,Summer,8,140
+103,Colors,Toys,Holi,7,724
+103,Pichkari,Toys,Holi,6,313
+104,Cap,Fashion,Summer,2,667
+104,Sunscreen,Health,Summer,7,451
+104,Water Bottle,Utility,Summer,6,390
+105,Pichkari,Toys,Holi,4,107
+105,Colors,Toys,Holi,10,904
+106,Umbrella,Utility,Rainy,9,544
+106,Raincoat,Fashion,Rainy,6,223
+107,Blanket,Home,Winter,8,286
+107,Heater,Electronics,Winter,4,388
+108,Sweets,Food,Diwali,1,901
+108,Dry Fruits,Food,Diwali,8,977
+109,Raincoat,Fashion,Rainy,4,312
+109,Umbrella,Utility,Rainy,10,424
+110,Jacket,Fashion,Winter,3,445
+110,Blanket,Home,Winter,6,533
+111,Sunscreen,Health,Summer,9,998
+111,Sunglasses,Fashion,Summer,2,923
+111,Water Bottle,Utility,Summer,6,117
+112,Pichkari,Toys,Holi,2,286
+112,Colors,Toys,Holi,4,268
+113,Raincoat,Fashion,Rainy,1,278
+113,Umbrella,Utility,Rainy,3,995
+114,Sweets,Food,Diwali,3,128
+114,Gift Box,Gift,Diwali,4,921
+114,Dry Fruits,Food,Diwali,7,757
+115,Colors,Toys,Holi,3,351
+115,Pichkari,Toys,Holi,9,821
+116,Water Bottle,Utility,Summer,9,730
+116,Sunglasses,Fashion,Summer,6,493
+116,Cap,Fashion,Summer,3,817
+117,Sunglasses,Fashion,Summer,3,263
+117,Cap,Fashion,Summer,10,665
+118,Raincoat,Fashion,Rainy,9,413
+118,Umbrella,Utility,Rainy,9,397
+119,Pichkari,Toys,Holi,4,941
+119,Colors,Toys,Holi,8,570
+120,Gift Box,Gift,Diwali,6,748
+120,Sweets,Food,Diwali,6,681
+120,Dry Fruits,Food,Diwali,6,324
+121,Jacket,Fashion,Winter,7,625
+121,Blanket,Home,Winter,5,820
+122,Jacket,Fashion,Winter,6,736
+122,Blanket,Home,Winter,10,585
+122,Heater,Electronics,Winter,4,881
+123,Water Bottle,Utility,Summer,10,423
+123,Sunscreen,Health,Summer,6,951
+124,Colors,Toys,Holi,7,272
+124,Pichkari,Toys,Holi,7,614
+125,Raincoat,Fashion,Rainy,9,278
+125,Umbrella,Utility,Rainy,8,651
+126,Gift Box,Gift,Diwali,4,300
+126,Sweets,Food,Diwali,7,452
+127,Colors,Toys,Holi,7,367
+127,Pichkari,Toys,Holi,10,451
+128,Cap,Fashion,Summer,7,215
+128,Water Bottle,Utility,Summer,10,338
+129,Heater,Electronics,Winter,8,931
+129,Blanket,Home,Winter,4,315
+129,Jacket,Fashion,Winter,8,693
+130,Pichkari,Toys,Holi,1,660
+130,Colors,Toys,Holi,9,866
+131,Raincoat,Fashion,Rainy,3,556
+131,Umbrella,Utility,Rainy,1,369
+132,Dry Fruits,Food,Diwali,3,451
+132,Gift Box,Gift,Diwali,3,446
+132,Sweets,Food,Diwali,1,996
+133,Colors,Toys,Holi,2,311
+133,Pichkari,Toys,Holi,7,507
+134,Colors,Toys,Holi,2,403
+134,Pichkari,Toys,Holi,1,991
+135,Colors,Toys,Holi,8,727
+135,Pichkari,Toys,Holi,3,803
+136,Umbrella,Utility,Rainy,10,357
+136,Raincoat,Fashion,Rainy,7,936
+137,Raincoat,Fashion,Rainy,6,158
+137,Umbrella,Utility,Rainy,3,227
+138,Umbrella,Utility,Rainy,6,445
+138,Raincoat,Fashion,Rainy,3,383
+139,Sweets,Food,Diwali,5,923
+139,Gift Box,Gift,Diwali,2,875
+140,Dry Fruits,Food,Diwali,2,661
+140,Gift Box,Gift,Diwali,2,863
+141,Sunglasses,Fashion,Summer,5,396
+141,Water Bottle,Utility,Summer,8,459
+141,Sunscreen,Health,Summer,3,487
+142,Heater,Electronics,Winter,6,588
+142,Blanket,Home,Winter,2,635
+143,Sunscreen,Health,Summer,1,963
+143,Water Bottle,Utility,Summer,1,133
+144,Pichkari,Toys,Holi,2,460
+144,Colors,Toys,Holi,5,825
+145,Water Bottle,Utility,Summer,3,757
+145,Cap,Fashion,Summer,3,500
+145,Sunglasses,Fashion,Summer,3,368
+146,Blanket,Home,Winter,2,346
+146,Heater,Electronics,Winter,2,712
+147,Jacket,Fashion,Winter,6,855
+147,Blanket,Home,Winter,2,363
+148,Umbrella,Utility,Rainy,8,746
+148,Raincoat,Fashion,Rainy,6,627
+149,Pichkari,Toys,Holi,3,166
+149,Colors,Toys,Holi,9,639
+150,Dry Fruits,Food,Diwali,1,587
+150,Sweets,Food,Diwali,2,417
+150,Gift Box,Gift,Diwali,7,271
+151,Raincoat,Fashion,Rainy,8,186
+151,Umbrella,Utility,Rainy,9,122
+152,Pichkari,Toys,Holi,10,712
+152,Colors,Toys,Holi,7,473
+153,Jacket,Fashion,Winter,4,511
+153,Heater,Electronics,Winter,8,522
+154,Raincoat,Fashion,Rainy,1,399
+154,Umbrella,Utility,Rainy,7,664
+155,Pichkari,Toys,Holi,5,635
+155,Colors,Toys,Holi,8,284
+156,Sunglasses,Fashion,Summer,10,991
+156,Water Bottle,Utility,Summer,8,850
+157,Colors,Toys,Holi,8,363
+157,Pichkari,Toys,Holi,9,838
+158,Water Bottle,Utility,Summer,7,284
+158,Sunglasses,Fashion,Summer,7,215
+158,Cap,Fashion,Summer,1,424
+159,Sunscreen,Health,Summer,1,172
+159,Cap,Fashion,Summer,5,438
+159,Sunglasses,Fashion,Summer,6,362
+160,Pichkari,Toys,Holi,9,484
+160,Colors,Toys,Holi,4,313
+161,Umbrella,Utility,Rainy,10,133
+161,Raincoat,Fashion,Rainy,9,861
+162,Dry Fruits,Food,Diwali,5,499
+162,Gift Box,Gift,Diwali,6,284
+162,Sweets,Food,Diwali,4,655
+163,Cap,Fashion,Summer,8,901
+163,Sunglasses,Fashion,Summer,9,597
+163,Sunscreen,Health,Summer,1,862
+164,Sweets,Food,Diwali,3,789
+164,Gift Box,Gift,Diwali,4,546
+164,Dry Fruits,Food,Diwali,1,898
+165,Colors,Toys,Holi,2,722
+165,Pichkari,Toys,Holi,6,207
+166,Pichkari,Toys,Holi,8,923
+166,Colors,Toys,Holi,1,313
+167,Raincoat,Fashion,Rainy,4,988
+167,Umbrella,Utility,Rainy,9,892
+168,Pichkari,Toys,Holi,1,840
+168,Colors,Toys,Holi,5,217
+169,Jacket,Fashion,Winter,4,542
+169,Heater,Electronics,Winter,6,506
+170,Dry Fruits,Food,Diwali,6,115
+170,Sweets,Food,Diwali,9,813
+170,Gift Box,Gift,Diwali,9,734
+171,Sunglasses,Fashion,Summer,2,261
+171,Water Bottle,Utility,Summer,6,735
+172,Raincoat,Fashion,Rainy,3,267
+172,Umbrella,Utility,Rainy,8,956
+173,Water Bottle,Utility,Summer,6,449
+173,Sunglasses,Fashion,Summer,7,389
+174,Raincoat,Fashion,Rainy,9,217
+174,Umbrella,Utility,Rainy,5,433
+175,Blanket,Home,Winter,8,542
+175,Jacket,Fashion,Winter,3,317
+176,Umbrella,Utility,Rainy,7,942
+176,Raincoat,Fashion,Rainy,10,923
+177,Jacket,Fashion,Winter,4,816
+177,Heater,Electronics,Winter,1,642
+177,Blanket,Home,Winter,3,436
+178,Umbrella,Utility,Rainy,9,314
+178,Raincoat,Fashion,Rainy,3,104
+179,Raincoat,Fashion,Rainy,7,354
+179,Umbrella,Utility,Rainy,10,700
+180,Pichkari,Toys,Holi,2,279
+180,Colors,Toys,Holi,7,975
+181,Colors,Toys,Holi,1,426
+181,Pichkari,Toys,Holi,7,848
+182,Sweets,Food,Diwali,4,829
+182,Gift Box,Gift,Diwali,8,509
+182,Dry Fruits,Food,Diwali,2,242
+183,Heater,Electronics,Winter,9,427
+183,Blanket,Home,Winter,2,662
+184,Blanket,Home,Winter,3,243
+184,Jacket,Fashion,Winter,1,389
+185,Pichkari,Toys,Holi,9,248
+185,Colors,Toys,Holi,5,491
+186,Heater,Electronics,Winter,7,413
+186,Jacket,Fashion,Winter,8,935
+187,Colors,Toys,Holi,6,930
+187,Pichkari,Toys,Holi,1,723
+188,Sunglasses,Fashion,Summer,8,238
+188,Cap,Fashion,Summer,6,744
+189,Umbrella,Utility,Rainy,7,102
+189,Raincoat,Fashion,Rainy,7,142
+190,Raincoat,Fashion,Rainy,6,525
+190,Umbrella,Utility,Rainy,3,319
+191,Dry Fruits,Food,Diwali,5,693
+191,Gift Box,Gift,Diwali,9,634
+192,Raincoat,Fashion,Rainy,1,768
+192,Umbrella,Utility,Rainy,10,560
+193,Water Bottle,Utility,Summer,7,912
+193,Cap,Fashion,Summer,10,133
+194,Colors,Toys,Holi,2,336
+194,Pichkari,Toys,Holi,4,738
+195,Raincoat,Fashion,Rainy,6,246
+195,Umbrella,Utility,Rainy,2,113
+196,Colors,Toys,Holi,10,511
+196,Pichkari,Toys,Holi,2,502
+197,Gift Box,Gift,Diwali,10,699
+197,Dry Fruits,Food,Diwali,6,267
+198,Water Bottle,Utility,Summer,1,264
+198,Cap,Fashion,Summer,1,353
+199,Colors,Toys,Holi,6,153
+199,Pichkari,Toys,Holi,3,117
+200,Pichkari,Toys,Holi,2,861
+200,Colors,Toys,Holi,3,840
+201,Gift Box,Gift,Diwali,9,734
+201,Sweets,Food,Diwali,10,782
+201,Dry Fruits,Food,Diwali,2,630
+202,Blanket,Home,Winter,8,413
+202,Heater,Electronics,Winter,1,384
+203,Heater,Electronics,Winter,8,479
+203,Blanket,Home,Winter,4,409
+203,Jacket,Fashion,Winter,4,359
+204,Pichkari,Toys,Holi,8,983
+204,Colors,Toys,Holi,9,641
+205,Gift Box,Gift,Diwali,3,804
+205,Dry Fruits,Food,Diwali,10,784
+205,Sweets,Food,Diwali,2,951
+206,Sunglasses,Fashion,Summer,10,537
+206,Sunscreen,Health,Summer,2,975
+207,Pichkari,Toys,Holi,3,769
+207,Colors,Toys,Holi,1,586
+208,Blanket,Home,Winter,4,366
+208,Heater,Electronics,Winter,7,354
+209,Umbrella,Utility,Rainy,7,170
+209,Raincoat,Fashion,Rainy,3,801
+210,Pichkari,Toys,Holi,3,393
+210,Colors,Toys,Holi,9,556
+211,Pichkari,Toys,Holi,3,246
+211,Colors,Toys,Holi,6,687
+212,Water Bottle,Utility,Summer,10,592
+212,Cap,Fashion,Summer,8,991
+213,Raincoat,Fashion,Rainy,6,830
+213,Umbrella,Utility,Rainy,7,400
+214,Blanket,Home,Winter,6,103
+214,Jacket,Fashion,Winter,2,158
+214,Heater,Electronics,Winter,6,550
+215,Dry Fruits,Food,Diwali,2,410
+215,Gift Box,Gift,Diwali,4,352
+216,Sunglasses,Fashion,Summer,5,818
+216,Sunscreen,Health,Summer,5,936
+216,Water Bottle,Utility,Summer,10,980
+217,Sweets,Food,Diwali,5,648
+217,Gift Box,Gift,Diwali,10,761
+217,Dry Fruits,Food,Diwali,3,918
+218,Cap,Fashion,Summer,4,541
+218,Sunscreen,Health,Summer,8,398
+218,Sunglasses,Fashion,Summer,1,917
+219,Blanket,Home,Winter,4,874
+219,Heater,Electronics,Winter,10,656
+219,Jacket,Fashion,Winter,6,607
+220,Colors,Toys,Holi,4,364
+220,Pichkari,Toys,Holi,1,578
+221,Jacket,Fashion,Winter,2,728
+221,Blanket,Home,Winter,8,695
+221,Heater,Electronics,Winter,3,676
+222,Pichkari,Toys,Holi,1,573
+222,Colors,Toys,Holi,8,983
+223,Jacket,Fashion,Winter,4,342
+223,Heater,Electronics,Winter,3,787
+223,Blanket,Home,Winter,8,283
+224,Raincoat,Fashion,Rainy,5,595
+224,Umbrella,Utility,Rainy,4,580
+225,Jacket,Fashion,Winter,7,963
+225,Heater,Electronics,Winter,5,242
+226,Sunscreen,Health,Summer,10,754
+226,Sunglasses,Fashion,Summer,3,108
+227,Umbrella,Utility,Rainy,9,835
+227,Raincoat,Fashion,Rainy,5,965
+228,Heater,Electronics,Winter,10,469
+228,Blanket,Home,Winter,4,276
+229,Water Bottle,Utility,Summer,3,697
+229,Sunglasses,Fashion,Summer,3,582
+229,Cap,Fashion,Summer,5,915
+230,Gift Box,Gift,Diwali,7,804
+230,Dry Fruits,Food,Diwali,4,977
+231,Dry Fruits,Food,Diwali,8,109
+231,Gift Box,Gift,Diwali,1,788
+232,Sunglasses,Fashion,Summer,10,668
+232,Cap,Fashion,Summer,8,282
+233,Cap,Fashion,Summer,9,763
+233,Sunscreen,Health,Summer,5,976
+234,Sweets,Food,Diwali,6,668
+234,Gift Box,Gift,Diwali,7,233
+234,Dry Fruits,Food,Diwali,10,549
+235,Water Bottle,Utility,Summer,8,197
+235,Sunglasses,Fashion,Summer,8,141
+235,Cap,Fashion,Summer,5,400
+236,Raincoat,Fashion,Rainy,3,755
+236,Umbrella,Utility,Rainy,7,160
+237,Cap,Fashion,Summer,9,912
+237,Sunscreen,Health,Summer,9,271
+237,Water Bottle,Utility,Summer,6,780
+238,Raincoat,Fashion,Rainy,1,657
+238,Umbrella,Utility,Rainy,7,248
+239,Colors,Toys,Holi,9,840
+239,Pichkari,Toys,Holi,8,303
+240,Gift Box,Gift,Diwali,9,357
+240,Sweets,Food,Diwali,3,754
+240,Dry Fruits,Food,Diwali,5,153
+241,Cap,Fashion,Summer,5,432
+241,Sunscreen,Health,Summer,1,175
+242,Pichkari,Toys,Holi,3,120
+242,Colors,Toys,Holi,1,715
+243,Colors,Toys,Holi,5,558
+243,Pichkari,Toys,Holi,10,816
+244,Colors,Toys,Holi,9,765
+244,Pichkari,Toys,Holi,7,291
+245,Umbrella,Utility,Rainy,10,453
+245,Raincoat,Fashion,Rainy,8,268
+246,Gift Box,Gift,Diwali,8,709
+246,Dry Fruits,Food,Diwali,10,425
+247,Pichkari,Toys,Holi,9,462
+247,Colors,Toys,Holi,4,408
+248,Dry Fruits,Food,Diwali,3,437
+248,Sweets,Food,Diwali,7,668
+249,Colors,Toys,Holi,3,395
+249,Pichkari,Toys,Holi,2,907
+250,Dry Fruits,Food,Diwali,3,874
+250,Gift Box,Gift,Diwali,8,156
+250,Sweets,Food,Diwali,1,760
+251,Sunglasses,Fashion,Summer,6,315
+251,Water Bottle,Utility,Summer,3,290
+252,Jacket,Fashion,Winter,5,503
+252,Blanket,Home,Winter,3,503
+252,Heater,Electronics,Winter,6,287
+253,Dry Fruits,Food,Diwali,8,742
+253,Sweets,Food,Diwali,3,886
+254,Sweets,Food,Diwali,2,987
+254,Dry Fruits,Food,Diwali,5,836
+254,Gift Box,Gift,Diwali,1,394
+255,Umbrella,Utility,Rainy,1,481
+255,Raincoat,Fashion,Rainy,5,355
+256,Cap,Fashion,Summer,5,633
+256,Water Bottle,Utility,Summer,2,192
+257,Umbrella,Utility,Rainy,3,224
+257,Raincoat,Fashion,Rainy,5,867
+258,Blanket,Home,Winter,2,563
+258,Heater,Electronics,Winter,9,669
+259,Pichkari,Toys,Holi,4,237
+259,Colors,Toys,Holi,4,145
+260,Sweets,Food,Diwali,7,871
+260,Gift Box,Gift,Diwali,6,260
+260,Dry Fruits,Food,Diwali,9,699
+261,Jacket,Fashion,Winter,7,807
+261,Blanket,Home,Winter,2,323
+262,Pichkari,Toys,Holi,4,548
+262,Colors,Toys,Holi,6,315
+263,Pichkari,Toys,Holi,9,547
+263,Colors,Toys,Holi,10,342
+264,Sunglasses,Fashion,Summer,1,303
+264,Cap,Fashion,Summer,7,220
+265,Colors,Toys,Holi,1,510
+265,Pichkari,Toys,Holi,9,632
+266,Raincoat,Fashion,Rainy,2,580
+266,Umbrella,Utility,Rainy,2,789
+267,Pichkari,Toys,Holi,5,710
+267,Colors,Toys,Holi,4,696
+268,Sweets,Food,Diwali,9,469
+268,Gift Box,Gift,Diwali,6,264
+268,Dry Fruits,Food,Diwali,8,887
+269,Gift Box,Gift,Diwali,6,725
+269,Sweets,Food,Diwali,3,157
+269,Dry Fruits,Food,Diwali,7,602
+270,Water Bottle,Utility,Summer,1,375
+270,Sunscreen,Health,Summer,7,735
+271,Colors,Toys,Holi,7,742
+271,Pichkari,Toys,Holi,8,439
+272,Blanket,Home,Winter,2,117
+272,Heater,Electronics,Winter,5,974
+273,Colors,Toys,Holi,2,696
+273,Pichkari,Toys,Holi,9,746
+274,Jacket,Fashion,Winter,3,668
+274,Blanket,Home,Winter,3,158
+275,Gift Box,Gift,Diwali,1,710
+275,Dry Fruits,Food,Diwali,2,641
+276,Colors,Toys,Holi,7,893
+276,Pichkari,Toys,Holi,1,649
+277,Jacket,Fashion,Winter,9,401
+277,Heater,Electronics,Winter,5,625
+278,Raincoat,Fashion,Rainy,6,821
+278,Umbrella,Utility,Rainy,3,872
+279,Water Bottle,Utility,Summer,8,336
+279,Sunscreen,Health,Summer,8,905
+279,Sunglasses,Fashion,Summer,4,554
+280,Raincoat,Fashion,Rainy,9,499
+280,Umbrella,Utility,Rainy,8,637
+281,Jacket,Fashion,Winter,8,307
+281,Heater,Electronics,Winter,6,117
+282,Umbrella,Utility,Rainy,2,585
+282,Raincoat,Fashion,Rainy,10,590
+283,Gift Box,Gift,Diwali,9,891
+283,Sweets,Food,Diwali,4,243
+283,Dry Fruits,Food,Diwali,1,194
+284,Sunscreen,Health,Summer,2,183
+284,Water Bottle,Utility,Summer,7,125
+284,Sunglasses,Fashion,Summer,5,257
+285,Water Bottle,Utility,Summer,8,816
+285,Sunglasses,Fashion,Summer,5,428
+285,Cap,Fashion,Summer,7,567
+286,Gift Box,Gift,Diwali,1,187
+286,Dry Fruits,Food,Diwali,2,979
+287,Pichkari,Toys,Holi,7,190
+287,Colors,Toys,Holi,4,482
+288,Jacket,Fashion,Winter,4,852
+288,Blanket,Home,Winter,1,213
+289,Pichkari,Toys,Holi,2,233
+289,Colors,Toys,Holi,9,260
+290,Colors,Toys,Holi,9,538
+290,Pichkari,Toys,Holi,4,254
+291,Pichkari,Toys,Holi,1,391
+291,Colors,Toys,Holi,2,220
+292,Blanket,Home,Winter,10,215
+292,Jacket,Fashion,Winter,4,831
+292,Heater,Electronics,Winter,10,522
+293,Pichkari,Toys,Holi,10,398
+293,Colors,Toys,Holi,7,238
+294,Umbrella,Utility,Rainy,6,381
+294,Raincoat,Fashion,Rainy,1,561
+295,Blanket,Home,Winter,10,366
+295,Jacket,Fashion,Winter,2,834
+296,Pichkari,Toys,Holi,5,869
+296,Colors,Toys,Holi,10,872
+297,Pichkari,Toys,Holi,6,242
+297,Colors,Toys,Holi,4,956
+298,Water Bottle,Utility,Summer,1,700
+298,Cap,Fashion,Summer,9,348
+299,Raincoat,Fashion,Rainy,6,790
+299,Umbrella,Utility,Rainy,1,361
+300,Colors,Toys,Holi,4,200
+300,Pichkari,Toys,Holi,1,975
+301,Cap,Fashion,Summer,8,576
+301,Sunscreen,Health,Summer,6,663
+302,Heater,Electronics,Winter,3,925
+302,Jacket,Fashion,Winter,3,122
+302,Blanket,Home,Winter,10,835
+303,Jacket,Fashion,Winter,7,469
+303,Blanket,Home,Winter,6,345
+303,Heater,Electronics,Winter,7,250
+304,Colors,Toys,Holi,5,794
+304,Pichkari,Toys,Holi,7,783
+305,Colors,Toys,Holi,3,406
+305,Pichkari,Toys,Holi,6,426
+306,Dry Fruits,Food,Diwali,8,472
+306,Gift Box,Gift,Diwali,7,390
+307,Pichkari,Toys,Holi,1,443
+307,Colors,Toys,Holi,7,120
+308,Umbrella,Utility,Rainy,4,183
+308,Raincoat,Fashion,Rainy,2,558
+309,Umbrella,Utility,Rainy,8,415
+309,Raincoat,Fashion,Rainy,1,288
+310,Sunglasses,Fashion,Summer,2,909
+310,Water Bottle,Utility,Summer,4,796
+311,Umbrella,Utility,Rainy,9,739
+311,Raincoat,Fashion,Rainy,8,708
+312,Pichkari,Toys,Holi,7,364
+312,Colors,Toys,Holi,5,395
+313,Dry Fruits,Food,Diwali,1,422
+313,Sweets,Food,Diwali,2,118
+313,Gift Box,Gift,Diwali,3,765
+314,Jacket,Fashion,Winter,3,459
+314,Blanket,Home,Winter,7,566
+315,Heater,Electronics,Winter,4,875
+315,Jacket,Fashion,Winter,6,223
+316,Umbrella,Utility,Rainy,7,226
+316,Raincoat,Fashion,Rainy,2,796
+317,Jacket,Fashion,Winter,8,131
+317,Heater,Electronics,Winter,4,201
+318,Blanket,Home,Winter,5,945
+318,Heater,Electronics,Winter,7,983
+319,Umbrella,Utility,Rainy,6,938
+319,Raincoat,Fashion,Rainy,6,820
+320,Sweets,Food,Diwali,5,673
+320,Dry Fruits,Food,Diwali,9,974
+320,Gift Box,Gift,Diwali,3,909
+321,Dry Fruits,Food,Diwali,3,357
+321,Sweets,Food,Diwali,10,922
+322,Dry Fruits,Food,Diwali,8,379
+322,Gift Box,Gift,Diwali,10,317
+323,Water Bottle,Utility,Summer,4,183
+323,Sunglasses,Fashion,Summer,10,821
+324,Cap,Fashion,Summer,4,747
+324,Sunglasses,Fashion,Summer,6,701
+324,Sunscreen,Health,Summer,8,920
+325,Jacket,Fashion,Winter,2,896
+325,Heater,Electronics,Winter,1,994
+326,Heater,Electronics,Winter,7,441
+326,Jacket,Fashion,Winter,5,123
+327,Gift Box,Gift,Diwali,9,841
+327,Dry Fruits,Food,Diwali,4,549
+328,Sweets,Food,Diwali,9,762
+328,Dry Fruits,Food,Diwali,10,569
+328,Gift Box,Gift,Diwali,4,209
+329,Blanket,Home,Winter,4,943
+329,Heater,Electronics,Winter,3,721
+330,Sunscreen,Health,Summer,9,711
+330,Cap,Fashion,Summer,6,533
+330,Water Bottle,Utility,Summer,9,996
+331,Raincoat,Fashion,Rainy,7,758
+331,Umbrella,Utility,Rainy,1,727
+332,Blanket,Home,Winter,7,650
+332,Heater,Electronics,Winter,2,563
+332,Jacket,Fashion,Winter,5,762
+333,Raincoat,Fashion,Rainy,5,317
+333,Umbrella,Utility,Rainy,5,192
+334,Blanket,Home,Winter,1,970
+334,Jacket,Fashion,Winter,10,277
+335,Heater,Electronics,Winter,10,201
+335,Blanket,Home,Winter,2,392
+336,Heater,Electronics,Winter,6,630
+336,Jacket,Fashion,Winter,9,948
+337,Raincoat,Fashion,Rainy,1,584
+337,Umbrella,Utility,Rainy,1,262
+338,Jacket,Fashion,Winter,5,772
+338,Heater,Electronics,Winter,2,102
+339,Umbrella,Utility,Rainy,7,983
+339,Raincoat,Fashion,Rainy,1,620
+340,Umbrella,Utility,Rainy,7,966
+340,Raincoat,Fashion,Rainy,6,665
+341,Dry Fruits,Food,Diwali,5,135
+341,Gift Box,Gift,Diwali,8,630
+342,Heater,Electronics,Winter,3,750
+342,Jacket,Fashion,Winter,2,700
+343,Blanket,Home,Winter,9,132
+343,Heater,Electronics,Winter,1,897
+344,Water Bottle,Utility,Summer,1,382
+344,Sunscreen,Health,Summer,5,952
+344,Cap,Fashion,Summer,3,348
+345,Jacket,Fashion,Winter,1,250
+345,Heater,Electronics,Winter,5,162
+345,Blanket,Home,Winter,3,961
+346,Gift Box,Gift,Diwali,4,381
+346,Dry Fruits,Food,Diwali,5,528
+347,Cap,Fashion,Summer,7,872
+347,Sunglasses,Fashion,Summer,10,861
+347,Sunscreen,Health,Summer,9,571
+348,Water Bottle,Utility,Summer,4,450
+348,Sunscreen,Health,Summer,3,718
+348,Sunglasses,Fashion,Summer,9,451
+349,Colors,Toys,Holi,5,230
+349,Pichkari,Toys,Holi,9,877
+350,Umbrella,Utility,Rainy,2,950
+350,Raincoat,Fashion,Rainy,1,718
+351,Jacket,Fashion,Winter,8,980
+351,Blanket,Home,Winter,1,253
+352,Sunscreen,Health,Summer,8,549
+352,Cap,Fashion,Summer,10,659
+353,Umbrella,Utility,Rainy,1,615
+353,Raincoat,Fashion,Rainy,5,796
+354,Blanket,Home,Winter,1,635
+354,Heater,Electronics,Winter,2,645
+355,Gift Box,Gift,Diwali,1,632
+355,Sweets,Food,Diwali,9,335
+355,Dry Fruits,Food,Diwali,6,108
+356,Raincoat,Fashion,Rainy,3,201
+356,Umbrella,Utility,Rainy,5,507
+357,Water Bottle,Utility,Summer,4,578
+357,Cap,Fashion,Summer,9,817
+357,Sunscreen,Health,Summer,4,580
+358,Raincoat,Fashion,Rainy,3,556
+358,Umbrella,Utility,Rainy,9,396
+359,Raincoat,Fashion,Rainy,7,242
+359,Umbrella,Utility,Rainy,6,449
+360,Gift Box,Gift,Diwali,7,801
+360,Sweets,Food,Diwali,10,878
+361,Dry Fruits,Food,Diwali,6,593
+361,Sweets,Food,Diwali,4,555
+362,Colors,Toys,Holi,3,718
+362,Pichkari,Toys,Holi,3,712
+363,Water Bottle,Utility,Summer,10,224
+363,Sunscreen,Health,Summer,3,224
+364,Blanket,Home,Winter,9,220
+364,Heater,Electronics,Winter,2,683
+364,Jacket,Fashion,Winter,1,230
+365,Blanket,Home,Winter,7,142
+365,Heater,Electronics,Winter,8,434
+365,Jacket,Fashion,Winter,2,899
+366,Jacket,Fashion,Winter,9,946
+366,Heater,Electronics,Winter,1,863
+367,Pichkari,Toys,Holi,10,643
+367,Colors,Toys,Holi,4,302
+368,Jacket,Fashion,Winter,4,181
+368,Heater,Electronics,Winter,3,503
+369,Sunscreen,Health,Summer,6,272
+369,Sunglasses,Fashion,Summer,9,410
+369,Cap,Fashion,Summer,6,269
+370,Pichkari,Toys,Holi,4,160
+370,Colors,Toys,Holi,6,123
+371,Sweets,Food,Diwali,8,734
+371,Gift Box,Gift,Diwali,8,245
+371,Dry Fruits,Food,Diwali,6,880
+372,Sweets,Food,Diwali,6,228
+372,Dry Fruits,Food,Diwali,5,532
+372,Gift Box,Gift,Diwali,1,125
+373,Sunglasses,Fashion,Summer,2,863
+373,Water Bottle,Utility,Summer,2,143
+374,Umbrella,Utility,Rainy,1,268
+374,Raincoat,Fashion,Rainy,3,325
+375,Umbrella,Utility,Rainy,3,934
+375,Raincoat,Fashion,Rainy,5,967
+376,Blanket,Home,Winter,8,994
+376,Heater,Electronics,Winter,1,771
+377,Sunglasses,Fashion,Summer,5,561
+377,Cap,Fashion,Summer,8,467
+378,Umbrella,Utility,Rainy,3,219
+378,Raincoat,Fashion,Rainy,8,557
+379,Gift Box,Gift,Diwali,10,150
+379,Sweets,Food,Diwali,1,468
+379,Dry Fruits,Food,Diwali,5,752
+380,Dry Fruits,Food,Diwali,5,521
+380,Gift Box,Gift,Diwali,6,434
+381,Jacket,Fashion,Winter,4,329
+381,Heater,Electronics,Winter,5,303
+382,Raincoat,Fashion,Rainy,9,239
+382,Umbrella,Utility,Rainy,10,991
+383,Colors,Toys,Holi,6,437
+383,Pichkari,Toys,Holi,10,980
+384,Sunscreen,Health,Summer,4,228
+384,Cap,Fashion,Summer,3,989
+384,Sunglasses,Fashion,Summer,2,125
+385,Sweets,Food,Diwali,4,293
+385,Gift Box,Gift,Diwali,2,505
+385,Dry Fruits,Food,Diwali,3,844
+386,Heater,Electronics,Winter,9,762
+386,Blanket,Home,Winter,8,676
+386,Jacket,Fashion,Winter,1,666
+387,Umbrella,Utility,Rainy,8,164
+387,Raincoat,Fashion,Rainy,5,714
+388,Raincoat,Fashion,Rainy,8,284
+388,Umbrella,Utility,Rainy,3,726
+389,Colors,Toys,Holi,3,588
+389,Pichkari,Toys,Holi,8,856
+390,Colors,Toys,Holi,10,454
+390,Pichkari,Toys,Holi,1,828
+391,Sweets,Food,Diwali,4,103
+391,Dry Fruits,Food,Diwali,5,912
+392,Jacket,Fashion,Winter,1,499
+392,Blanket,Home,Winter,8,741
+392,Heater,Electronics,Winter,6,338
+393,Jacket,Fashion,Winter,10,800
+393,Blanket,Home,Winter,6,704
+393,Heater,Electronics,Winter,3,579
+394,Heater,Electronics,Winter,1,664
+394,Blanket,Home,Winter,2,300
+395,Raincoat,Fashion,Rainy,2,396
+395,Umbrella,Utility,Rainy,6,842
+396,Raincoat,Fashion,Rainy,5,253
+396,Umbrella,Utility,Rainy,2,673
+397,Raincoat,Fashion,Rainy,3,527
+397,Umbrella,Utility,Rainy,10,909
+398,Dry Fruits,Food,Diwali,8,859
+398,Gift Box,Gift,Diwali,3,526
+399,Raincoat,Fashion,Rainy,7,707
+399,Umbrella,Utility,Rainy,3,756
+400,Raincoat,Fashion,Rainy,8,316
+400,Umbrella,Utility,Rainy,10,743
