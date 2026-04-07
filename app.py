@@ -233,5 +233,5 @@ st.markdown("""
 
 🔗 [GitHub](https://github.com/herwadeaditya)  
 
-🔗 [LinkedIn](https://linkedin.com/in/adityaherwade)  
+🔗 [LinkedIn](https://www.linkedin.com/in/aditya-herwade)  
 """)
