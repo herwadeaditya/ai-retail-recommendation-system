@@ -224,9 +224,14 @@ bundle them strategically, and optimize pricing
 to maximize revenue.
 """)
 
+st.markdown("### 👨‍💻 Developed by")
+
 st.markdown("""
 **Aditya Herwade**  
-📧 adityaherwade17@gmail.com  
-🔗 GitHub: https://github.com/herwadeaditya  
-🔗 LinkedIn: https://linkedin.com/in/adityaherwade  
+
+📧 [adityaherwade17@gmail.com](mailto:adityaherwade17@gmail.com)  
+
+🔗 [GitHub](https://github.com/herwadeaditya)  
+
+🔗 [LinkedIn](https://linkedin.com/in/adityaherwade)  
 """)
