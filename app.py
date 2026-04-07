@@ -223,3 +223,10 @@ For **{occasion}**, focus on high-demand products,
 bundle them strategically, and optimize pricing  
 to maximize revenue.
 """)
+
+st.markdown("""
+**Aditya Herwade**  
+📧 adityaherwade17@gmail.com  
+🔗 GitHub: https://github.com/herwadeaditya  
+🔗 LinkedIn: https://linkedin.com/in/adityaherwade  
+""")
