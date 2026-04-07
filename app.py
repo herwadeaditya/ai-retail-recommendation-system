@@ -18,24 +18,22 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title="AI Retail System", layout="wide")
 
 # -------------------------
-# STYLE
+# HEADER
 # -------------------------
+st.markdown("<h1 style='text-align: center;'>🛍️ AI Retail Recommendation System</h1>", unsafe_allow_html=True)
+
 st.markdown("""
-<style>
-    .stMetric {text-align: center;}
-</style>
-""", unsafe_allow_html=True)
+This system analyzes customer purchase patterns using **Apriori Algorithm**  
+to suggest smart product combinations, demand insights, and pricing strategies.
+""")
+
+st.divider()
 
 # -------------------------
 # LOAD DATA
 # -------------------------
 df = pd.read_csv("sales_data.csv")
 combo_rules = pickle.load(open("model/combo_rules.pkl", "rb"))
-
-# -------------------------
-# HEADER
-# -------------------------
-st.markdown("<h1 style='text-align: center;'>🛍️ AI Retail Recommendation System</h1>", unsafe_allow_html=True)
 
 # -------------------------
 # KPI CARDS
@@ -85,11 +83,11 @@ for product, qty in sales_data.items():
 
     with col2:
         if qty >= max_sales * 0.7:
-            st.success("🔥 High")
+            st.success("🔥 High Demand")
         elif qty >= max_sales * 0.4:
-            st.warning("⚡ Medium")
+            st.warning("⚡ Medium Demand")
         else:
-            st.info("💡 Low")
+            st.info("💡 Low Demand")
 
 st.divider()
 
@@ -119,18 +117,14 @@ st.metric("Avg Items per Order", int(avg_order))
 st.divider()
 
 # -------------------------
-# ✅ FIXED PRODUCT PERFORMANCE
+# PRODUCT PERFORMANCE (FIXED)
 # -------------------------
 st.subheader("📊 Product Performance")
 
 products_list = sales_data.index.tolist()
 
-# Top products
 top_products = products_list[:3]
-
-# Low products (remove overlap)
-low_products = products_list[-3:]
-low_products = [p for p in low_products if p not in top_products]
+low_products = [p for p in products_list[-3:] if p not in top_products]
 
 top_df = sales_data.loc[top_products]
 low_df = sales_data.loc[low_products]
@@ -161,9 +155,15 @@ st.write("📦 Bundle these products to increase sales")
 st.divider()
 
 # -------------------------
-# COMBO RECOMMENDATIONS
+# COMBO SECTION (UPGRADED)
 # -------------------------
 st.subheader("🔥 Smart Combos")
+
+st.markdown("### 💡 Why these combos?")
+st.info("These products are frequently bought together based on historical transaction data using Apriori Algorithm.")
+
+# Slider
+top_n = st.slider("Select number of recommendations", 5, 20, 10)
 
 valid_products = set(filtered['Product'].unique())
 
@@ -175,13 +175,15 @@ filtered_rules = combo_rules[
 if filtered_rules.empty:
     st.warning("No combos for this occasion")
 else:
-    rules = filtered_rules.sort_values(by="lift", ascending=False).head(5)
+    rules = filtered_rules.sort_values(by="lift", ascending=False).head(top_n)
 
     for _, row in rules.iterrows():
+        confidence = round(row['confidence'] * 100, 2)
+
         st.markdown(f"""
         🔹 **Buy {list(row['antecedents'])} → Get {list(row['consequents'])}**  
-        📊 Lift: {round(row['lift'], 2)}  
-        💡 Customers frequently buy these together  
+        📊 Lift: **{round(row['lift'], 2)}**  
+        🎯 Confidence: **{confidence}%**  
         """)
 
 st.divider()
@@ -220,4 +222,4 @@ st.info(f"""
 For **{occasion}**, focus on high-demand products,  
 bundle them strategically, and optimize pricing  
 to maximize revenue.
-""")    
+""")
