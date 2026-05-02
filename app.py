@@ -11,15 +11,13 @@ import pickle
 import warnings
 
 warnings.filterwarnings("ignore")
-
-# -------------------------
+
 # PAGE CONFIG
-# -------------------------
-st.set_page_config(page_title="AI Retail System", layout="wide")
 
-# -------------------------
+st.set_page_config(page_title="AI Retail System", layout="wide")
+
 # HEADER
-# -------------------------
+
 st.markdown("<h1 style='text-align: center;'>🛍️ AI Retail Recommendation System</h1>", unsafe_allow_html=True)
 
 st.markdown("""
@@ -28,16 +26,15 @@ to suggest smart product combinations, demand insights, and pricing strategies.
 """)
 
 st.divider()
-
-# -------------------------
+
 # LOAD DATA
-# -------------------------
+
 df = pd.read_csv("sales_data.csv")
 combo_rules = pickle.load(open("model/combo_rules.pkl", "rb"))
 
-# -------------------------
+
 # KPI CARDS
-# -------------------------
+
 col1, col2, col3 = st.columns(3)
 
 col1.metric("🛒 Products", len(df['Product'].unique()))
@@ -46,9 +43,9 @@ col3.metric("💰 Total Sales", int(df['Quantity'].sum()))
 
 st.divider()
 
-# -------------------------
+
 # OCCASION SELECT
-# -------------------------
+
 occasion = st.selectbox("🎯 Select Occasion", ["All"] + list(df['Occasion'].unique()))
 
 filtered = df if occasion == "All" else df[df['Occasion'] == occasion]
@@ -57,9 +54,9 @@ if filtered.empty:
     st.warning("No data available")
     st.stop()
 
-# -------------------------
+
 # SALES OVERVIEW
-# -------------------------
+
 st.subheader("📊 Sales Overview")
 
 sales_data = filtered.groupby('Product')['Quantity'].sum().sort_values(ascending=False)
@@ -67,9 +64,9 @@ st.bar_chart(sales_data)
 
 st.divider()
 
-# -------------------------
+
 # DEMAND INSIGHTS
-# -------------------------
+
 st.subheader("🔮 Demand Insights")
 
 max_sales = sales_data.max()
@@ -91,9 +88,9 @@ for product, qty in sales_data.items():
 
 st.divider()
 
-# -------------------------
+
 # REVENUE INSIGHT
-# -------------------------
+
 st.subheader("💰 Revenue Insight")
 
 filtered['Revenue'] = filtered['Quantity'] * filtered['Price']
@@ -106,9 +103,9 @@ st.success(f"💸 Highest revenue product: {top_revenue}")
 
 st.divider()
 
-# -------------------------
+
 # ORDER INSIGHT
-# -------------------------
+
 st.subheader("📦 Order Insights")
 
 avg_order = filtered.groupby('InvoiceNo')['Quantity'].sum().mean()
@@ -116,9 +113,9 @@ st.metric("Avg Items per Order", int(avg_order))
 
 st.divider()
 
-# -------------------------
+
 # PRODUCT PERFORMANCE (FIXED)
-# -------------------------
+
 st.subheader("📊 Product Performance")
 
 products_list = sales_data.index.tolist()
@@ -144,9 +141,9 @@ with col2:
 
 st.divider()
 
-# -------------------------
+
 # ACTION RECOMMENDATIONS
-# -------------------------
+
 st.subheader("🎯 Action Recommendations")
 
 st.success(f"🔥 Focus on: {', '.join(top_products)}")
@@ -154,9 +151,9 @@ st.write("📦 Bundle these products to increase sales")
 
 st.divider()
 
-# -------------------------
+
 # COMBO SECTION (UPGRADED)
-# -------------------------
+
 st.subheader("🔥 Smart Combos")
 
 st.markdown("### 💡 Why these combos?")
@@ -187,10 +184,9 @@ else:
         """)
 
 st.divider()
-
-# -------------------------
+
 # PRICING STRATEGY
-# -------------------------
+ 
 st.subheader("💸 Pricing Strategy")
 
 if max_sales > 20:
@@ -201,10 +197,9 @@ else:
 st.info("💡 Bundle items to increase cart value")
 
 st.divider()
-
-# -------------------------
+
 # BUSINESS DECISIONS
-# -------------------------
+
 st.subheader("🧠 Business Decisions")
 
 st.write("➡ Increase stock for high-demand products")
@@ -213,9 +208,9 @@ st.write("➡ Optimize pricing strategy")
 
 st.divider()
 
-# -------------------------
+
 # FINAL INSIGHT
-# -------------------------
+
 st.subheader("📊 Business Insight")
 
 st.info(f"""
