@@ -1,4 +1,4 @@
-pandas
 streamlit
-mlxtend
-scikit-learn
+pandas
+plotly
+anthropic
